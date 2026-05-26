@@ -7,7 +7,6 @@ struct ParsedUrl {
     std::string host;
     std::string path;
     int port;
-    bool is_https;
 };
 
 class HttpClient {

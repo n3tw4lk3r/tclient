@@ -5,9 +5,6 @@
 #include <sys/socket.h>
 #include <unistd.h>
 
-#include <openssl/ssl.h>
-#include <openssl/err.h>
-
 #include <sstream>
 #include <stdexcept>
 #include <iomanip>
@@ -17,14 +14,14 @@ std::string HttpClient::Get(
     const std::map<std::string, std::string>& params,
     int timeout_sec
 ) const {
-    auto [host, path, port, https] = ParseUrl(url);
+    auto [host, path, port] = ParseUrl(url);
 
     std::string query = BuildQuery(params);
     if (!query.empty()) {
         path += "?" + query;
     }
 
-    addrinfo hints{};
+    addrinfo hints {};
     hints.ai_family = AF_INET;
     hints.ai_socktype = SOCK_STREAM;
 
@@ -77,48 +74,13 @@ std::string HttpClient::Get(
     std::string req = request.str();
     std::string response;
 
-    if (https) {
-        SSL_library_init();
+    send(sock, req.c_str(), req.size(), 0);
 
-        SSL_CTX* ctx = SSL_CTX_new(TLS_client_method());
+    char buffer[BUFSIZ];
+    ssize_t bytes;
 
-        if (!ctx) {
-            close(sock);
-            throw std::runtime_error("SSL_CTX_new failed");
-        }
-
-        SSL* ssl = SSL_new(ctx);
-        SSL_set_fd(ssl, sock);
-
-        if (SSL_connect(ssl) <= 0) {
-            SSL_free(ssl);
-            SSL_CTX_free(ctx);
-            close(sock);
-            throw std::runtime_error("SSL_connect failed");
-        }
-
-        SSL_write(ssl, req.c_str(), req.size());
-
-        char buffer[BUFSIZ];
-        int bytes;
-
-        while ((bytes = SSL_read(ssl, buffer, sizeof(buffer))) > 0) {
-            response.append(buffer, bytes);
-        }
-
-        SSL_shutdown(ssl);
-        SSL_free(ssl);
-        SSL_CTX_free(ctx);
-
-    } else {
-        send(sock, req.c_str(), req.size(), 0);
-
-        char buffer[BUFSIZ];
-        ssize_t bytes;
-
-        while ((bytes = recv(sock, buffer, sizeof(buffer), 0)) > 0) {
-            response.append(buffer, bytes);
-        }
+    while ((bytes = recv(sock, buffer, sizeof(buffer), 0)) > 0) {
+        response.append(buffer, bytes);
     }
 
     close(sock);
@@ -143,16 +105,9 @@ ParsedUrl HttpClient::ParseUrl(
     const std::string& url
 ) const {
     ParsedUrl request;
-
-    request.is_https = false;
-
     std::string working = url;
 
-    if (working.starts_with("https://")) {
-        request.is_https = true;
-        request.port = 443;
-        working = working.substr(8);
-    } else if (working.starts_with("http://")) {
+    if (working.starts_with("http://")) {
         request.port = 80;
         working = working.substr(7);
     } else {

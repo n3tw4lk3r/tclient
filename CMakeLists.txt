@@ -9,7 +9,6 @@ if(CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra")
 endif()
 
-find_package(OpenSSL REQUIRED)
 find_package(Threads REQUIRED)
 
 set(EXTERNAL_DIR ${CMAKE_SOURCE_DIR}/external)

@@ -13,6 +13,7 @@ add_library(core STATIC
     net/UdpConnection.cpp
     utils/BencodeParser.cpp
     utils/byte_tools.cpp
+    utils/Sha1.cpp
     utils/Timer.cpp
 )
 
@@ -23,11 +24,6 @@ target_include_directories(core PRIVATE
 
 target_include_directories(core PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/../include
-)
-
-target_link_libraries(core PUBLIC
-    OpenSSL::SSL
-    OpenSSL::Crypto
 )
 
 add_executable(simple-torrent-tui

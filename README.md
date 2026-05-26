@@ -24,29 +24,9 @@ All networking operations (HTTP and UDP tracker communation, peer-to-peer commun
 Required
 - C++20 compatible compiler
 - CMake (3.14 or higher)
-- OpenSSL (for SHA-1 hashing)
 
 Included
 - FTXUI - for TUI
-
-## Dependencies Installation
-
-### Ubuntu/Debian
-
-```bash
-sudo apt update
-sudo apt install build-essential cmake libssl-dev libcurl4-openssl-dev
-```
-
-### Arch Linux
-```bash
-sudo pacman -S base-devel cmake openssl curl
-```
-
-### macOS
-```bash
-brew install cmake openssl curl
-```
 
 ## Build
 ```bash

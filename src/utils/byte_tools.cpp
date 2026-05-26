@@ -2,7 +2,7 @@
 
 #include <stdexcept>
 
-#include <openssl/sha.h>
+#include "utils/Sha1.hpp"
 
 std::int32_t utils::BytesToInt32(std::string_view bytes) {
     if (bytes.size() < 4) {
@@ -26,14 +26,11 @@ std::string utils::Int32ToBytes(std::int32_t value) {
 }
 
 std::string utils::CalculateSha1(std::string_view msg) {
-    unsigned char hash[SHA_DIGEST_LENGTH];
+    Sha1 sha;
+    sha.Update(reinterpret_cast<const uint8_t*>(msg.data()), msg.size());
 
-    SHA1(
-        reinterpret_cast<const unsigned char*>(msg.data()),
-        msg.size(),
-        hash);
-
-    return std::string(reinterpret_cast<char*>(hash), SHA_DIGEST_LENGTH);
+    auto digest = sha.Final();
+    return std::string(reinterpret_cast<const char*>(digest.data()), digest.size());
 }
 
 std::string utils::HexEncode(std::string_view input) {
