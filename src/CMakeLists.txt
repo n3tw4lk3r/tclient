@@ -26,21 +26,23 @@ target_include_directories(core PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/../include
 )
 
-add_executable(simple-torrent-tui
-    main_tui.cpp
+add_executable(torrent-client
+    main.cpp
     ui/TorrentUi.cpp
+    ui/UiFormatter.cpp
+    ui/UiRenderer.cpp
 )
 
-target_include_directories(simple-torrent-tui PRIVATE
+target_include_directories(torrent-client PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}
     ${CMAKE_CURRENT_SOURCE_DIR}/..
 )
 
-target_link_libraries(simple-torrent-tui
+target_link_libraries(torrent-client
     core
-    ftxui::component
 )
 
-install(TARGETS simple-torrent-tui
+install(TARGETS torrent-client
     DESTINATION bin
 )
+

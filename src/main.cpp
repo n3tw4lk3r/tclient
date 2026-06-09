@@ -14,11 +14,7 @@ void DownloadThreadFunction(
 ) {
     try {
         client->DownloadTorrent(torrent_file_path, output_directory);
-        if (client->IsStopRequested()) {
-            download_promise.set_value(false);
-        } else {
-            download_promise.set_value(true);
-        }
+        download_promise.set_value(true);
     } catch (const std::exception& error) {
         std::cerr << "Download error: " << error.what() << std::endl;
         download_promise.set_exception(std::current_exception());
@@ -55,8 +51,7 @@ int main(int argc, char* argv[]) {
         TorrentClient* client_raw = client.get();
         
         std::promise<bool> download_promise;
-        std::future<bool> download_future =
-            download_promise.get_future();
+        std::future<bool> download_future = download_promise.get_future();
         
         std::thread download_thread(
             DownloadThreadFunction, 
@@ -66,10 +61,8 @@ int main(int argc, char* argv[]) {
             std::ref(download_promise)
         );
         
-        TorrentUi torrent_ui(std::move(client));
+        TorrentUi torrent_ui(*client);
         torrent_ui.Run();
-        
-        client_raw->RequestStop();
         
         if (download_thread.joinable()) {
             download_thread.join();
@@ -84,7 +77,7 @@ int main(int argc, char* argv[]) {
                 return EXIT_SUCCESS;
             } else {
                 std::cerr
-                    << "Download stopped by user (Q was pressed)"
+                    << "Download is incomplete."
                     << std::endl;
                 return EXIT_FAILURE;
             }

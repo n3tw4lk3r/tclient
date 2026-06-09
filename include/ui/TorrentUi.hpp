@@ -1,29 +1,19 @@
 #pragma once
 
 #include <atomic>
-#include <memory>
-#include <thread>
-
-#include <ftxui/component/component.hpp>
-#include <ftxui/component/screen_interactive.hpp>
 
 #include "core/TorrentClient.hpp"
+#include "ui/UiRenderer.hpp"
 
 class TorrentUi {
 public:
-    TorrentUi(std::unique_ptr<TorrentClient> client);
-    ~TorrentUi();
+    explicit TorrentUi(TorrentClient& client);
 
     void Run();
 
 private:
-    std::unique_ptr<TorrentClient> client;
-    std::atomic<bool> is_running {true};
-    std::thread update_thread;
-
-    ftxui::Component main_component;
-
-    ftxui::Component BuildUi();
-    ftxui::Element Render();
+    TorrentClient& client;
+    UiRenderer renderer;
+    std::atomic<bool> running {true};
 };
 

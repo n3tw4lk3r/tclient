@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.14)
-project(Torrent-Client)
+project(torrent-client)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -10,15 +10,5 @@ if(CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
 endif()
 
 find_package(Threads REQUIRED)
-
-set(EXTERNAL_DIR ${CMAKE_SOURCE_DIR}/external)
-
-set(ftxui_SOURCE_DIR ${EXTERNAL_DIR}/ftxui)
-if(EXISTS ${ftxui_SOURCE_DIR}/CMakeLists.txt)
-    message(STATUS "Using local FTXUI from external/ftxui")
-    add_subdirectory(${ftxui_SOURCE_DIR})
-else()
-    message(FATAL_ERROR "Cannot proceed: FTXUI not found in external/ftxui.")
-endif()
 
 add_subdirectory(src)

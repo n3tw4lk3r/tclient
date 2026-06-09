@@ -15,7 +15,7 @@
 class TorrentClient {
 public:
     explicit TorrentClient(const std::string& peer_id = "TESTAPPDONTWORRY");
-    ~TorrentClient();
+    ~TorrentClient() = default;
 
     void DownloadTorrent(
         const std::filesystem::path& torrent_file_path,
@@ -27,21 +27,17 @@ public:
 
     TorrentTask GetCurrentTask() const;
     std::vector<std::string> GetLogMessages(size_t max_count = 50) const;
-    void PauseDownload();
-    void ResumeDownload();
+    
     bool IsDownloading() const;
-    bool IsPaused() const;
+    bool IsFinished() const;
+    
     std::chrono::seconds ElapsedTime() const;
-    void RequestStop();
-    bool IsStopRequested() const;
 
 private:
     static constexpr int kPiecesLeftToEnterEndgame = 20;
 
     std::string peer_id;
     std::atomic<bool> is_terminated{false};
-    std::atomic<bool> is_paused{false};
-    std::atomic<bool> stop_requested{false};
 
     mutable std::mutex task_mutex;
     TorrentTask current_task;
@@ -50,6 +46,7 @@ private:
     std::vector<std::shared_ptr<PeerConnection>> peer_connections;
     Timer timer;
 
+private:
     void AddLogMessage(const std::string& message);
     void UpdateTaskStatus(TorrentStatus status);
     void UpdateTaskFromPieceStorage(const PieceStorage& storage);

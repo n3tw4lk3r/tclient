@@ -1,7 +1,8 @@
 ### Torrent-Client
 
 A BitTorrent client written in C++ that supports downloading **single-file torrents** using **HTTP and UDP trackers**.  
-The project features a **multi-threaded architecture** and a **text-based user interface (TUI)** built with FTXUI.
+The project features a **multi-threaded architecture** and a self-written **text-based user interface (TUI)**.
+No external libraries are required.
 
 **Note 1:**
 This project originally started as a university assignment and is now being refactored and improved.
@@ -24,9 +25,6 @@ All networking operations (HTTP and UDP tracker communation, peer-to-peer commun
 Required
 - C++20 compatible compiler
 - CMake (3.14 or higher)
-
-Included
-- FTXUI - for TUI
 
 ## Build
 ```bash
