@@ -370,7 +370,7 @@ void TorrentClient::DownloadFromTracker(
                     }
                 }
 
-                for (int i = 0; i < 300; ++i) {
+                for (int i = 0; i < 150; ++i) {
                     if (is_terminated || pieces.IsDownloadComplete()) {
                         return;
                     }

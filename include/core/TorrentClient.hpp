@@ -53,11 +53,29 @@ private:
     Timer timer;
     PeerManager peer_manager;
 
-    static constexpr std::array<const char*, 4> kDefaultTrackers = {
+    static constexpr std::array kDefaultTrackers = {
         "udp://tracker.opentrackr.org:1337/announce",
         "udp://open.stealth.si:80/announce",
         "udp://exodus.desync.com:6969/announce",
-        "udp://tracker.torrent.eu.org:451/announce"
+        "udp://tracker.torrent.eu.org:451/announce",
+
+        "udp://tracker.openbittorrent.com:80/announce",
+        "udp://tracker.internetwarriors.net:1337/announce",
+        "udp://tracker.leechers-paradise.org:6969/announce",
+
+        "udp://tracker.dler.org:6969/announce",
+        "udp://tracker.moeking.me:6969/announce",
+        "udp://tracker.uw0.xyz:6969/announce",
+
+        "udp://tracker.bittor.pw:1337/announce",
+        "udp://opentracker.io:6969/announce",
+        "udp://tracker.dump.cl:6969/announce",
+
+        "udp://explodie.org:6969/announce",
+        "udp://tracker.filemail.com:6969/announce",
+
+        "udp://tracker.tryhackx.org:6969/announce",
+        "udp://tracker-udp.gbitt.info:80/announce"
     };
 
 private:

@@ -25,7 +25,7 @@ public:
     void SetPeers(const std::vector<Peer>& new_peers) { peers = new_peers; }
 
 private:
-    static constexpr std::array<std::string_view, 7> kBackupUdpTrackers = {
+    static constexpr std::array kBackupUdpTrackers = {
         "udp://tracker.openbittorrent.com:80",
         "udp://tracker.internetwarriors.net:1337",
         "udp://tracker.leechers-paradise.org:6969",
