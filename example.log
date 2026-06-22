@@ -1,0 +1,760 @@
+[15:08:09] [UI] Torrent client initialized
+[15:08:09] [UI] Loading torrent file: debian-13.5.0-amd64-netinst.iso.torrent
+[15:08:09] [UI] File: debian-13.5.0-amd64-netinst.iso (791674880 bytes, 3020 pieces)
+[15:08:09] [UI] Connecting to trackers...
+[15:08:09] [UI] Using 17 trackers
+[15:08:09] [UI] Requesting peers from http://bttracker.debian.org:6969/announce...
+[15:08:09] [UI] Got 50 peers from http://bttracker.debian.org:6969/announce
+[15:08:09] [UI] Starting download with 50 peers
+[15:08:09] [UI] Requesting more peers (active: 0/50)...
+[15:08:09] [UI] Trying to connect 0 new peers (slots available: 50)
+[15:08:09] [UI] Successfully connected to 192.162.126.206:14752
+[15:08:09] [ERROR] Peer 185.16.100.222:54321 error: Connection closed by peer
+[15:08:09] [ERROR] Peer 94.231.79.64:51413 error: Socket connection error
+[15:08:09] [ERROR] Peer 195.122.16.64:51413 error: Connection closed by peer
+[15:08:09] [ERROR] Peer 86.115.226.162:49152 error: Connection closed by peer
+[15:08:09] [ERROR] Peer 128.116.179.157:51413 error: Socket connection error
+[15:08:09] [UI] Successfully connected to 157.90.13.84:61462
+[15:08:09] [UI] Successfully connected to 185.243.216.24:41551
+[15:08:09] [ERROR] Peer 83.148.245.51:51414 error: Connection closed by peer
+[15:08:09] [UI] Successfully connected to 193.163.71.79:23407
+[15:08:09] [ERROR] Peer 144.2.116.132:51157 error: Connection closed by peer
+[15:08:09] [ERROR] Peer 62.210.131.208:32535 error: Read error: Connection reset by peer
+[15:08:09] [UI] Successfully connected to 45.128.133.232:32956
+[15:08:09] [UI] Successfully connected to 91.3.193.65:12001
+[15:08:09] [UI] Successfully connected to 62.210.207.69:49152
+[15:08:09] [UI] Successfully connected to 213.152.176.135:20074
+[15:08:09] [UI] Successfully connected to 185.148.0.223:22972
+[15:08:09] [UI] Successfully connected to 205.147.16.24:60006
+[15:08:09] [UI] Successfully connected to 85.215.176.70:4240
+[15:08:09] [UI] Successfully connected to 194.213.3.203:51413
+[15:08:09] [UI] Successfully connected to 207.174.105.198:8055
+[15:08:09] [ERROR] Peer 163.172.221.72:51413 error: Connection closed by peer
+[15:08:09] [UI] Successfully connected to 76.64.174.103:53358
+[15:08:09] [ERROR] Peer 87.58.176.238:62019 error: Connection closed by peer
+[15:08:09] [UI] Successfully connected to 178.93.200.161:35209
+[15:08:09] [UI] Successfully connected to 37.120.174.87:51413
+[15:08:10] [ERROR] Peer 198.44.133.99:44757 error: Read error: Connection reset by peer
+[15:08:10] [UI] Successfully connected to 87.58.176.238:62011
+[15:08:10] [UI] Successfully connected to 51.38.57.28:47437
+[15:08:10] [ERROR] Peer 205.147.16.227:6881 error: Connection timeout
+[15:08:10] [ERROR] Peer 185.230.125.15:43743 error: Connection timeout
+[15:08:10] [ERROR] Peer 77.33.175.70:51413 error: Connection timeout
+[15:08:10] [ERROR] Peer 92.38.192.210:23016 error: Connection timeout
+[15:08:10] [ERROR] Peer 178.27.0.25:51413 error: Connection timeout
+[15:08:10] [ERROR] Peer 95.26.27.3:51413 error: Connection timeout
+[15:08:10] [ERROR] Peer 178.136.44.52:64423 error: Connection timeout
+[15:08:10] [ERROR] Peer 88.146.221.2:42041 error: Connection timeout
+[15:08:10] [ERROR] Peer 85.65.67.118:6881 error: Connection timeout
+[15:08:10] [ERROR] Peer 91.219.81.179:45682 error: Connection timeout
+[15:08:10] [ERROR] Peer 91.217.42.205:8058 error: Connection timeout
+[15:08:10] [ERROR] Peer 159.26.105.160:1234 error: Connection timeout
+[15:08:10] [ERROR] Peer 212.104.215.82:60740 error: Connection timeout
+[15:08:10] [ERROR] Peer 79.117.39.204:6881 error: Connection timeout
+[15:08:10] [ERROR] Peer 91.112.56.66:16388 error: Connection timeout
+[15:08:10] [ERROR] Peer 191.96.168.78:52075 error: Connection timeout
+[15:08:10] [ERROR] Peer 187.250.116.16:17779 error: Connection timeout
+[15:08:10] [ERROR] Peer 91.214.117.134:32729 error: Connection timeout
+[15:08:10] [ERROR] Peer 86.102.134.212:13012 error: Connection timeout
+[15:08:10] [ERROR] Peer 77.20.151.170:51413 error: Connection timeout
+[15:08:10] [UI] Successfully connected to 82.64.45.242:59092
+[15:08:11] [ERROR] Peer 62.210.207.69:49152 error: Receive timeout
+[15:08:11] [UI] Trying to connect 0 new peers (slots available: 32)
+[15:08:11] [ERROR] Peer 76.64.174.103:53358 error: Receive timeout
+[15:08:13] [UI] Trying to connect 0 new peers (slots available: 33)
+[15:08:14] [ERROR] Peer 94.231.79.64:51413 error: Socket connection error
+[15:08:14] [ERROR] Peer 128.116.179.157:51413 error: Socket connection error
+[15:08:14] [ERROR] Peer 86.115.226.162:49152 error: Connection closed by peer
+[15:08:14] [ERROR] Peer 195.122.16.64:51413 error: Connection closed by peer
+[15:08:14] [ERROR] Peer 83.148.245.51:51414 error: Connection closed by peer
+[15:08:14] [ERROR] Peer 144.2.116.132:51157 error: Connection closed by peer
+[15:08:14] [ERROR] Peer 62.210.131.208:32535 error: Read error: Connection reset by peer
+[15:08:15] [UI] Background tracker update error: [UdpConnection] Timeout waiting for response (5s) from exodus.desync.com:6969
+[15:08:15] [ERROR] Peer 87.58.176.238:62019 error: Connection closed by peer
+[15:08:15] [ERROR] Peer 163.172.221.72:51413 error: Connection closed by peer
+[15:08:15] [ERROR] Peer 185.16.100.222:54321 error: Read error: Connection reset by peer
+[15:08:15] [UI] Trying to connect 0 new peers (slots available: 33)
+[15:08:15] [ERROR] Peer 198.44.133.99:44757 error: Read error: Connection reset by peer
+[15:08:16] [ERROR] Peer 212.104.215.82:60740 error: Connection closed by peer
+[15:08:16] [ERROR] Peer 62.210.207.69:49152 error: Connection closed by peer
+[15:08:16] [ERROR] Peer 178.27.0.25:51413 error: Connection timeout
+[15:08:16] [ERROR] Peer 205.147.16.227:6881 error: Connection timeout
+[15:08:16] [ERROR] Peer 95.26.27.3:51413 error: Connection timeout
+[15:08:16] [ERROR] Peer 178.136.44.52:64423 error: Connection timeout
+[15:08:16] [ERROR] Peer 92.38.192.210:23016 error: Connection timeout
+[15:08:16] [ERROR] Peer 185.230.125.15:43743 error: Connection timeout
+[15:08:16] [ERROR] Peer 77.33.175.70:51413 error: Connection timeout
+[15:08:16] [ERROR] Peer 91.219.81.179:45682 error: Connection timeout
+[15:08:16] [ERROR] Peer 85.65.67.118:6881 error: Connection timeout
+[15:08:16] [ERROR] Peer 88.146.221.2:42041 error: Connection timeout
+[15:08:16] [ERROR] Peer 159.26.105.160:1234 error: Connection timeout
+[15:08:16] [ERROR] Peer 91.217.42.205:8058 error: Connection timeout
+[15:08:16] [ERROR] Peer 79.117.39.204:6881 error: Connection timeout
+[15:08:16] [ERROR] Peer 91.214.117.134:32729 error: Connection timeout
+[15:08:16] [ERROR] Peer 91.112.56.66:16388 error: Connection timeout
+[15:08:16] [ERROR] Peer 86.102.134.212:13012 error: Connection timeout
+[15:08:16] [ERROR] Peer 191.96.168.78:52075 error: Connection timeout
+[15:08:16] [ERROR] Peer 187.250.116.16:17779 error: Connection timeout
+[15:08:16] [ERROR] Peer 77.20.151.170:51413 error: Connection timeout
+[15:08:17] [UI] Successfully connected to 76.64.174.103:53358
+[15:08:17] [UI] Trying to connect 0 new peers (slots available: 32)
+[15:08:19] [UI] Trying to connect 0 new peers (slots available: 32)
+[15:08:19] [ERROR] Peer 94.231.79.64:51413 error: Socket connection error
+[15:08:19] [ERROR] Peer 85.215.176.70:4240 error: Connection closed by peer
+[15:08:19] [ERROR] Peer 128.116.179.157:51413 error: Socket connection error
+[15:08:19] [ERROR] Peer 51.38.57.28:47437 error: Receive timeout
+[15:08:19] [UI] Successfully connected to 86.115.226.162:49152
+[15:08:19] [ERROR] Peer 195.122.16.64:51413 error: Connection closed by peer
+[15:08:19] [ERROR] Peer 144.2.116.132:51157 error: Connection closed by peer
+[15:08:19] [ERROR] Peer 62.210.131.208:32535 error: Read error: Connection reset by peer
+[15:08:20] [ERROR] Peer 185.16.100.222:54321 error: Connection closed by peer
+[15:08:20] [UI] Background tracker update error: [UdpConnection] Timeout waiting for response (5s) from explodie.org:6969
+[15:08:20] [UI] Successfully connected to 83.148.245.51:51414
+[15:08:20] [ERROR] Peer 87.58.176.238:62019 error: Connection closed by peer
+[15:08:20] [UI] Discovered 44 new peers from udp://open.stealth.si:80/announce (total known: 94)
+[15:08:21] [ERROR] Peer 198.44.133.99:44757 error: Read error: Connection reset by peer
+[15:08:21] [UI] Successfully connected to 163.172.221.72:51413
+[15:08:21] [UI] Trying to connect 31 new peers (slots available: 31)
+[15:08:21] [ERROR] Peer 62.210.207.69:49152 error: Connection closed by peer
+[15:08:21] [UI] Successfully connected to 159.26.114.38:57185
+[15:08:21] [ERROR] Peer 209.127.34.202:6406 error: Socket connection error
+[15:08:21] [UI] Successfully connected to 141.98.100.151:6830
+[15:08:21] [UI] Successfully connected to 154.12.118.196:62084
+[15:08:21] [UI] Successfully connected to 198.44.157.147:5430
+[15:08:21] [UI] Successfully connected to 216.8.202.136:52934
+[15:08:21] [ERROR] Peer 156.67.29.55:32655 error: Connection closed by peer
+[15:08:21] [UI] Successfully connected to 99.233.192.106:62800
+[15:08:21] [UI] Successfully connected to 209.141.40.137:20539
+[15:08:21] [UI] Successfully connected to 146.70.226.233:47478
+[15:08:22] [ERROR] Peer 113.205.140.118:15011 error: Connection closed by peer
+[15:08:22] [ERROR] Peer 212.104.215.82:60740 error: Connection timeout
+[15:08:22] [ERROR] Peer 49.76.132.147:20020 error: Read error: Connection reset by peer
+[15:08:22] [ERROR] Peer 180.114.148.157:20020 error: Read error: Connection reset by peer
+[15:08:22] [ERROR] Peer 121.235.179.54:20020 error: Read error: Connection reset by peer
+[15:08:22] [ERROR] Peer 121.235.154.226:20096 error: Read error: Connection reset by peer
+[15:08:22] [ERROR] Peer 121.235.203.236:20020 error: Read error: Connection reset by peer
+[15:08:22] [ERROR] Peer 95.26.27.3:51413 error: Connection timeout
+[15:08:22] [ERROR] Peer 178.27.0.25:51413 error: Connection timeout
+[15:08:22] [ERROR] Peer 205.147.16.227:6881 error: Connection timeout
+[15:08:22] [ERROR] Peer 178.136.44.52:64423 error: Connection timeout
+[15:08:22] [ERROR] Peer 77.33.175.70:51413 error: Connection timeout
+[15:08:22] [ERROR] Peer 185.230.125.15:43743 error: Connection timeout
+[15:08:22] [ERROR] Peer 92.38.192.210:23016 error: Connection timeout
+[15:08:22] [ERROR] Peer 88.146.221.2:42041 error: Connection timeout
+[15:08:22] [ERROR] Peer 79.117.39.204:6881 error: Connection timeout
+[15:08:22] [ERROR] Peer 159.26.105.160:1234 error: Connection timeout
+[15:08:22] [ERROR] Peer 91.217.42.205:8058 error: Connection timeout
+[15:08:22] [ERROR] Peer 91.219.81.179:45682 error: Connection timeout
+[15:08:22] [ERROR] Peer 85.65.67.118:6881 error: Connection timeout
+[15:08:22] [ERROR] Peer 187.250.116.16:17779 error: Connection timeout
+[15:08:22] [ERROR] Peer 191.96.168.78:52075 error: Connection timeout
+[15:08:22] [ERROR] Peer 91.112.56.66:16388 error: Connection timeout
+[15:08:22] [ERROR] Peer 86.102.134.212:13012 error: Connection timeout
+[15:08:22] [ERROR] Peer 91.214.117.134:32729 error: Connection timeout
+[15:08:22] [ERROR] Peer 77.20.151.170:51413 error: Connection timeout
+[15:08:22] [ERROR] Peer 66.234.153.137:41779 error: Connection timeout
+[15:08:22] [ERROR] Peer 180.113.230.249:20020 error: Connection timeout
+[15:08:22] [ERROR] Peer 188.64.165.179:0 error: Connection timeout
+[15:08:22] [ERROR] Peer 159.26.100.96:54559 error: Connection timeout
+[15:08:22] [ERROR] Peer 159.196.80.138:57359 error: Connection timeout
+[15:08:22] [ERROR] Peer 111.31.143.166:14514 error: Connection timeout
+[15:08:22] [ERROR] Peer 182.132.132.128:7284 error: Connection timeout
+[15:08:22] [ERROR] Peer 122.190.137.169:16881 error: Connection timeout
+[15:08:22] [ERROR] Peer 205.147.16.141:43262 error: Connection timeout
+[15:08:22] [ERROR] Peer 146.70.166.218:22433 error: Connection timeout
+[15:08:22] [ERROR] Peer 101.87.86.24:4844 error: Connection timeout
+[15:08:22] [ERROR] Peer 173.249.253.109:56833 error: Connection timeout
+[15:08:22] [UI] Successfully connected to 216.236.39.61:51413
+[15:08:23] [ERROR] Peer 121.235.226.15:20020 error: Receive timeout
+[15:08:23] [ERROR] Peer 221.228.177.111:20020 error: Receive timeout
+[15:08:23] [UI] Trying to connect 0 new peers (slots available: 22)
+[15:08:24] [ERROR] Peer 146.70.226.233:47478 error: Receive timeout
+[15:08:24] [ERROR] Peer 141.98.100.151:6830 error: Receive timeout
+[15:08:24] [ERROR] Peer 94.231.79.64:51413 error: Socket connection error
+[15:08:24] [ERROR] Peer 128.116.179.157:51413 error: Socket connection error
+[15:08:25] [UI] Successfully connected to 85.215.176.70:4240
+[15:08:25] [ERROR] Peer 144.2.116.132:51157 error: Connection closed by peer
+[15:08:25] [ERROR] Peer 195.122.16.64:51413 error: Connection closed by peer
+[15:08:25] [ERROR] Peer 62.210.131.208:32535 error: Read error: Connection reset by peer
+[15:08:25] [ERROR] Peer 51.38.57.28:47437 error: Connection closed by peer
+[15:08:25] [UI] Trying to connect 0 new peers (slots available: 23)
+[15:08:25] [ERROR] Peer 185.16.100.222:54321 error: Read error: Connection reset by peer
+[15:08:26] [ERROR] Peer 87.58.176.238:62019 error: Connection closed by peer
+[15:08:26] [UI] Background tracker update error: [UdpConnection] Timeout waiting for response (5s) from opentracker.io:6969
+[15:08:26] [ERROR] Peer 198.44.133.99:44757 error: Read error: Connection reset by peer
+[15:08:26] [UI] Discovered 2 new peers from udp://tracker-udp.gbitt.info:80/announceudp://tracker.bittor.pw:1337/announce (total known: 96)
+[15:08:26] [ERROR] Peer 62.210.207.69:49152 error: Connection closed by peer
+[15:08:26] [ERROR] Peer 209.127.34.202:6406 error: Socket connection error
+[15:08:27] [ERROR] Peer 156.67.29.55:32655 error: Connection closed by peer
+[15:08:27] [UI] Discovered 1 new peers from udp://tracker.dler.org:6969/announce (total known: 97)
+[15:08:27] [UI] Trying to connect 3 new peers (slots available: 23)
+[15:08:27] [ERROR] Peer 113.205.140.118:15011 error: Connection closed by peer
+[15:08:27] [ERROR] Peer 212.104.215.82:60740 error: Read error: Connection reset by peer
+[15:08:28] [UI] Successfully connected to 205.147.16.141:43262
+[15:08:28] [UI] Successfully connected to 159.26.100.96:54559
+[15:08:28] [ERROR] Peer 121.235.154.226:20096 error: Connection timeout
+[15:08:28] [ERROR] Peer 121.235.203.236:20020 error: Connection timeout
+[15:08:28] [ERROR] Peer 95.26.27.3:51413 error: Connection timeout
+[15:08:28] [ERROR] Peer 92.38.192.210:23016 error: Connection timeout
+[15:08:28] [ERROR] Peer 205.147.16.227:6881 error: Connection timeout
+[15:08:28] [ERROR] Peer 178.27.0.25:51413 error: Connection timeout
+[15:08:28] [ERROR] Peer 185.230.125.15:43743 error: Connection timeout
+[15:08:28] [ERROR] Peer 178.136.44.52:64423 error: Connection timeout
+[15:08:28] [ERROR] Peer 85.65.67.118:6881 error: Connection timeout
+[15:08:28] [ERROR] Peer 77.33.175.70:51413 error: Connection timeout
+[15:08:28] [ERROR] Peer 159.26.105.160:1234 error: Connection timeout
+[15:08:28] [ERROR] Peer 79.117.39.204:6881 error: Connection timeout
+[15:08:28] [ERROR] Peer 91.217.42.205:8058 error: Connection timeout
+[15:08:28] [ERROR] Peer 91.219.81.179:45682 error: Connection timeout
+[15:08:28] [ERROR] Peer 88.146.221.2:42041 error: Connection timeout
+[15:08:28] [ERROR] Peer 191.96.168.78:52075 error: Connection timeout
+[15:08:28] [ERROR] Peer 91.112.56.66:16388 error: Connection timeout
+[15:08:28] [ERROR] Peer 77.20.151.170:51413 error: Connection timeout
+[15:08:28] [ERROR] Peer 91.214.117.134:32729 error: Connection timeout
+[15:08:28] [ERROR] Peer 66.234.153.137:41779 error: Connection timeout
+[15:08:28] [ERROR] Peer 86.102.134.212:13012 error: Connection timeout
+[15:08:28] [ERROR] Peer 187.250.116.16:17779 error: Connection timeout
+[15:08:28] [ERROR] Peer 180.113.230.249:20020 error: Connection timeout
+[15:08:28] [ERROR] Peer 188.64.165.179:0 error: Connection timeout
+[15:08:28] [ERROR] Peer 159.196.80.138:57359 error: Connection timeout
+[15:08:28] [ERROR] Peer 146.70.166.218:22433 error: Connection timeout
+[15:08:28] [ERROR] Peer 173.249.253.109:56833 error: Connection timeout
+[15:08:28] [ERROR] Peer 111.31.143.166:14514 error: Connection timeout
+[15:08:28] [ERROR] Peer 23.234.122.199:51413 error: Connection timeout
+[15:08:28] [ERROR] Peer 122.190.137.169:16881 error: Connection timeout
+[15:08:28] [ERROR] Peer 182.132.132.128:7284 error: Connection timeout
+[15:08:28] [ERROR] Peer 219.228.119.197:26650 error: Connection timeout
+[15:08:28] [ERROR] Peer 101.87.86.24:4844 error: Connection timeout
+[15:08:28] [ERROR] Peer 180.114.148.157:20020 error: Read error: Connection reset by peer
+[15:08:28] [ERROR] Peer 121.235.179.54:20020 error: Read error: Connection reset by peer
+[15:08:29] [ERROR] Peer 121.235.226.15:20020 error: Read error: Connection reset by peer
+[15:08:29] [ERROR] Peer 221.228.177.111:20020 error: Read error: Connection reset by peer
+[15:08:29] [ERROR] Peer 49.76.132.147:20020 error: Receive timeout
+[15:08:29] [ERROR] Peer 216.197.207.49:51413 error: Receive timeout
+[15:08:29] [ERROR] Peer 146.70.226.233:47478 error: Connection closed by peer
+[15:08:29] [UI] Trying to connect 0 new peers (slots available: 21)
+[15:08:29] [ERROR] Peer 163.172.221.72:51413 error: Receive timeout
+[15:08:29] [UI] Successfully connected to 141.98.100.151:6830
+[15:08:29] [ERROR] Peer 94.231.79.64:51413 error: Socket connection error
+[15:08:30] [ERROR] Peer 128.116.179.157:51413 error: Socket connection error
+[15:08:30] [ERROR] Peer 144.2.116.132:51157 error: Connection closed by peer
+[15:08:30] [ERROR] Peer 195.122.16.64:51413 error: Connection closed by peer
+[15:08:30] [ERROR] Peer 62.210.131.208:32535 error: Read error: Connection reset by peer
+[15:08:30] [ERROR] Peer 51.38.57.28:47437 error: Connection closed by peer
+[15:08:31] [UI] Trying to connect 0 new peers (slots available: 21)
+[15:08:31] [ERROR] Peer 87.58.176.238:62019 error: Connection closed by peer
+[15:08:32] [ERROR] Peer 62.210.207.69:49152 error: Connection closed by peer
+[15:08:32] [ERROR] Peer 198.44.133.99:44757 error: Read error: Connection reset by peer
+[15:08:32] [ERROR] Peer 209.127.34.202:6406 error: Socket connection error
+[15:08:32] [ERROR] Peer 141.98.100.151:6830 error: Receive timeout
+[15:08:32] [ERROR] Peer 185.16.100.222:54321 error: Receive timeout
+[15:08:32] [UI] Background tracker update error: [UdpConnection] Timeout waiting for response (5s) from tracker.dump.cl:6969
+[15:08:32] [ERROR] Peer 156.67.29.55:32655 error: Connection closed by peer
+[15:08:33] [ERROR] Peer 113.205.140.118:15011 error: Connection closed by peer
+[15:08:33] [UI] Trying to connect 0 new peers (slots available: 22)
+[15:08:33] [ERROR] Peer 212.104.215.82:60740 error: Connection timeout
+[15:08:33] [ERROR] Peer 121.235.154.226:20096 error: Read error: Connection reset by peer
+[15:08:34] [ERROR] Peer 121.235.203.236:20020 error: Connection timeout
+[15:08:34] [ERROR] Peer 180.114.148.157:20020 error: Read error: Connection reset by peer
+[15:08:34] [ERROR] Peer 95.26.27.3:51413 error: Connection timeout
+[15:08:34] [ERROR] Peer 85.65.67.118:6881 error: Connection timeout
+[15:08:34] [ERROR] Peer 205.147.16.227:6881 error: Connection timeout
+[15:08:34] [ERROR] Peer 159.26.105.160:1234 error: Connection timeout
+[15:08:34] [ERROR] Peer 92.38.192.210:23016 error: Connection timeout
+[15:08:34] [ERROR] Peer 178.136.44.52:64423 error: Connection timeout
+[15:08:34] [ERROR] Peer 178.27.0.25:51413 error: Connection timeout
+[15:08:34] [ERROR] Peer 185.230.125.15:43743 error: Connection timeout
+[15:08:34] [ERROR] Peer 77.33.175.70:51413 error: Connection timeout
+[15:08:34] [ERROR] Peer 91.217.42.205:8058 error: Connection timeout
+[15:08:34] [ERROR] Peer 79.117.39.204:6881 error: Connection timeout
+[15:08:34] [ERROR] Peer 91.219.81.179:45682 error: Connection timeout
+[15:08:34] [ERROR] Peer 191.96.168.78:52075 error: Connection timeout
+[15:08:34] [ERROR] Peer 77.20.151.170:51413 error: Connection timeout
+[15:08:34] [ERROR] Peer 121.235.179.54:20020 error: Read error: Connection reset by peer
+[15:08:34] [ERROR] Peer 86.102.134.212:13012 error: Connection timeout
+[15:08:34] [ERROR] Peer 66.234.153.137:41779 error: Connection timeout
+[15:08:34] [ERROR] Peer 91.112.56.66:16388 error: Connection timeout
+[15:08:34] [ERROR] Peer 88.146.221.2:42041 error: Connection timeout
+[15:08:34] [ERROR] Peer 91.214.117.134:32729 error: Connection timeout
+[15:08:34] [ERROR] Peer 187.250.116.16:17779 error: Connection timeout
+[15:08:34] [ERROR] Peer 180.113.230.249:20020 error: Connection timeout
+[15:08:34] [ERROR] Peer 188.64.165.179:0 error: Connection timeout
+[15:08:34] [ERROR] Peer 173.249.253.109:56833 error: Connection timeout
+[15:08:34] [ERROR] Peer 159.196.80.138:57359 error: Connection timeout
+[15:08:34] [ERROR] Peer 219.228.119.197:26650 error: Connection timeout
+[15:08:34] [ERROR] Peer 146.70.166.218:22433 error: Connection timeout
+[15:08:34] [ERROR] Peer 101.87.86.24:4844 error: Connection timeout
+[15:08:34] [ERROR] Peer 23.234.122.199:51413 error: Connection timeout
+[15:08:34] [ERROR] Peer 182.132.132.128:7284 error: Connection timeout
+[15:08:34] [ERROR] Peer 122.190.137.169:16881 error: Connection timeout
+[15:08:34] [ERROR] Peer 111.31.143.166:14514 error: Connection timeout
+[15:08:34] [ERROR] Peer 221.228.177.111:20020 error: Read error: Connection reset by peer
+[15:08:34] [ERROR] Peer 121.235.226.15:20020 error: Read error: Connection reset by peer
+[15:08:35] [ERROR] Peer 163.172.221.72:51413 error: Connection closed by peer
+[15:08:35] [ERROR] Peer 146.70.226.233:47478 error: Connection closed by peer
+[15:08:35] [ERROR] Peer 85.215.176.70:4240 error: Connection closed by peer
+[15:08:35] [UI] Trying to connect 5 new peers (slots available: 23)
+[15:08:35] [ERROR] Peer 94.231.79.64:51413 error: Socket connection error
+[15:08:35] [ERROR] Peer 128.116.179.157:51413 error: Socket connection error
+[15:08:35] [ERROR] Peer 62.210.131.208:32535 error: Read error: Connection reset by peer
+[15:08:35] [ERROR] Peer 144.2.116.132:51157 error: Read error: Connection reset by peer
+[15:08:35] [ERROR] Peer 195.122.16.64:51413 error: Connection closed by peer
+[15:08:35] [ERROR] Peer 49.76.132.147:20020 error: Read error: Connection reset by peer
+[15:08:35] [ERROR] Peer 216.197.207.49:51413 error: Receive timeout
+[15:08:36] [ERROR] Peer 157.90.13.84:61462 error: Receive timeout
+[15:08:36] [ERROR] Peer 51.38.57.28:47437 error: Connection closed by peer
+[15:08:37] [ERROR] Peer 209.127.34.202:6406 error: Socket connection error
+[15:08:37] [UI] Trying to connect 4 new peers (slots available: 24)
+[15:08:37] [UI] Background tracker update error: [UdpConnection] Timeout waiting for response (5s) from tracker.filemail.com:6969
+[15:08:37] [ERROR] Peer 62.210.207.69:49152 error: Connection closed by peer
+[15:08:37] [UI] Successfully connected to 141.98.100.151:6830
+[15:08:37] [ERROR] Peer 87.58.176.238:62019 error: Connection closed by peer
+[15:08:37] [ERROR] Peer 156.67.29.55:32655 error: Connection closed by peer
+[15:08:38] [ERROR] Peer 198.44.133.99:44757 error: Connection closed by peer
+[15:08:38] [UI] Successfully connected to 185.16.100.222:54321
+[15:08:38] [ERROR] Peer 113.205.140.118:15011 error: Connection closed by peer
+[15:08:39] [UI] Trying to connect 20 new peers (slots available: 22)
+[15:08:39] [ERROR] Peer 121.235.154.226:20096 error: Read error: Connection reset by peer
+[15:08:40] [ERROR] Peer 212.104.215.82:60740 error: Connection closed by peer
+[15:08:40] [ERROR] Peer 141.98.100.151:6830 error: Receive timeout
+[15:08:40] [ERROR] Peer 180.114.148.157:20020 error: Connection timeout
+[15:08:40] [ERROR] Peer 66.234.153.137:41779 error: Connection timeout
+[15:08:40] [ERROR] Peer 180.113.230.249:20020 error: Connection timeout
+[15:08:40] [ERROR] Peer 188.64.165.179:0 error: Connection timeout
+[15:08:40] [ERROR] Peer 146.70.166.218:22433 error: Connection timeout
+[15:08:40] [ERROR] Peer 101.87.86.24:4844 error: Connection timeout
+[15:08:40] [ERROR] Peer 182.132.132.128:7284 error: Connection timeout
+[15:08:40] [ERROR] Peer 219.228.119.197:26650 error: Connection timeout
+[15:08:40] [ERROR] Peer 159.196.80.138:57359 error: Connection timeout
+[15:08:40] [ERROR] Peer 111.31.143.166:14514 error: Connection timeout
+[15:08:40] [ERROR] Peer 23.234.122.199:51413 error: Connection timeout
+[15:08:40] [ERROR] Peer 122.190.137.169:16881 error: Connection timeout
+[15:08:40] [ERROR] Peer 173.249.253.109:56833 error: Connection timeout
+[15:08:40] [ERROR] Peer 205.147.16.227:6881 error: Connection timeout
+[15:08:40] [ERROR] Peer 185.230.125.15:43743 error: Connection timeout
+[15:08:40] [ERROR] Peer 92.38.192.210:23016 error: Connection timeout
+[15:08:40] [ERROR] Peer 178.27.0.25:51413 error: Connection timeout
+[15:08:40] [ERROR] Peer 178.136.44.52:64423 error: Connection timeout
+[15:08:40] [ERROR] Peer 77.33.175.70:51413 error: Connection timeout
+[15:08:40] [ERROR] Peer 95.26.27.3:51413 error: Connection timeout
+[15:08:40] [ERROR] Peer 91.219.81.179:45682 error: Connection timeout
+[15:08:40] [ERROR] Peer 85.65.67.118:6881 error: Connection timeout
+[15:08:40] [ERROR] Peer 88.146.221.2:42041 error: Connection timeout
+[15:08:40] [ERROR] Peer 79.117.39.204:6881 error: Connection timeout
+[15:08:40] [ERROR] Peer 159.26.105.160:1234 error: Connection timeout
+[15:08:40] [ERROR] Peer 91.217.42.205:8058 error: Connection timeout
+[15:08:40] [ERROR] Peer 91.214.117.134:32729 error: Connection timeout
+[15:08:40] [ERROR] Peer 91.112.56.66:16388 error: Connection timeout
+[15:08:40] [ERROR] Peer 191.96.168.78:52075 error: Connection timeout
+[15:08:40] [ERROR] Peer 86.102.134.212:13012 error: Connection timeout
+[15:08:40] [ERROR] Peer 187.250.116.16:17779 error: Connection timeout
+[15:08:40] [ERROR] Peer 77.20.151.170:51413 error: Connection timeout
+[15:08:40] [UI] Successfully connected to 85.215.176.70:4240
+[15:08:40] [ERROR] Peer 163.172.221.72:51413 error: Connection closed by peer
+[15:08:40] [ERROR] Peer 146.70.226.233:47478 error: Connection closed by peer
+[15:08:40] [ERROR] Peer 221.228.177.111:20020 error: Read error: Connection reset by peer
+[15:08:40] [ERROR] Peer 94.231.79.64:51413 error: Socket connection error
+[15:08:40] [ERROR] Peer 128.116.179.157:51413 error: Socket connection error
+[15:08:40] [ERROR] Peer 121.235.226.15:20020 error: Connection timeout
+[15:08:40] [ERROR] Peer 121.235.203.236:20020 error: Read error: Connection reset by peer
+[15:08:40] [ERROR] Peer 62.210.131.208:32535 error: Read error: Connection reset by peer
+[15:08:40] [ERROR] Peer 144.2.116.132:51157 error: Read error: Connection reset by peer
+[15:08:41] [ERROR] Peer 121.235.179.54:20020 error: Read error: Connection reset by peer
+[15:08:41] [ERROR] Peer 195.122.16.64:51413 error: Connection closed by peer
+[15:08:41] [UI] Successfully connected to 157.90.13.84:61462
+[15:08:41] [ERROR] Peer 157.90.13.84:61462 error: Connection closed by peer
+[15:08:41] [ERROR] Peer 49.76.132.147:20020 error: Read error: Connection reset by peer
+[15:08:41] [UI] Trying to connect 0 new peers (slots available: 22)
+[15:08:41] [ERROR] Peer 86.115.226.162:49152 error: Connection closed by peer
+[15:08:41] [ERROR] Peer 51.38.57.28:47437 error: Connection closed by peer
+[15:08:42] [ERROR] Peer 216.197.207.49:51413 error: Receive timeout
+[15:08:42] [UI] Background tracker update error: [UdpConnection] Timeout waiting for response (5s) from tracker.internetwarriors.net:1337
+[15:08:42] [ERROR] Peer 209.127.34.202:6406 error: Socket connection error
+[15:08:42] [UI] Background tracker update error: [UdpConnection] Failed to resolve host tracker.leechers-paradise.org: Unknown host
+[15:08:42] [UI] Background tracker update error: [UdpConnection] Failed to resolve host tracker.moeking.me: Unknown host
+[15:08:42] [ERROR] Peer 62.210.207.69:49152 error: Connection closed by peer
+[15:08:43] [ERROR] Peer 156.67.29.55:32655 error: Connection closed by peer
+[15:08:43] [ERROR] Peer 87.58.176.238:62019 error: Connection closed by peer
+[15:08:43] [UI] Trying to connect 0 new peers (slots available: 23)
+[15:08:43] [ERROR] Peer 198.44.133.99:44757 error: Read error: Connection reset by peer
+[15:08:44] [ERROR] Peer 113.205.140.118:15011 error: Connection closed by peer
+[15:08:45] [ERROR] Peer 121.235.154.226:20096 error: Read error: Connection reset by peer
+[15:08:45] [UI] Trying to connect 0 new peers (slots available: 23)
+[15:08:45] [ERROR] Peer 159.26.100.96:54559 error: Receive timeout
+[15:08:45] [ERROR] Peer 94.231.79.64:51413 error: Socket connection error
+[15:08:45] [ERROR] Peer 128.116.179.157:51413 error: Socket connection error
+[15:08:46] [ERROR] Peer 163.172.221.72:51413 error: Connection closed by peer
+[15:08:46] [ERROR] Peer 212.104.215.82:60740 error: Connection timeout
+[15:08:46] [ERROR] Peer 62.210.131.208:32535 error: Read error: Connection reset by peer
+[15:08:46] [ERROR] Peer 144.2.116.132:51157 error: Read error: Connection reset by peer
+[15:08:46] [ERROR] Peer 195.122.16.64:51413 error: Connection closed by peer
+[15:08:46] [ERROR] Peer 180.114.148.157:20020 error: Connection timeout
+[15:08:46] [UI] Successfully connected to 157.90.13.84:61462
+[15:08:46] [ERROR] Peer 66.234.153.137:41779 error: Connection timeout
+[15:08:46] [ERROR] Peer 180.113.230.249:20020 error: Connection timeout
+[15:08:46] [ERROR] Peer 188.64.165.179:0 error: Connection timeout
+[15:08:46] [ERROR] Peer 182.132.132.128:7284 error: Connection timeout
+[15:08:46] [ERROR] Peer 111.31.143.166:14514 error: Connection timeout
+[15:08:46] [ERROR] Peer 146.70.166.218:22433 error: Connection timeout
+[15:08:46] [ERROR] Peer 122.190.137.169:16881 error: Connection timeout
+[15:08:46] [ERROR] Peer 23.234.122.199:51413 error: Connection timeout
+[15:08:46] [ERROR] Peer 173.249.253.109:56833 error: Connection timeout
+[15:08:46] [ERROR] Peer 219.228.119.197:26650 error: Connection timeout
+[15:08:46] [ERROR] Peer 159.196.80.138:57359 error: Connection timeout
+[15:08:46] [ERROR] Peer 101.87.86.24:4844 error: Connection timeout
+[15:08:46] [ERROR] Peer 185.230.125.15:43743 error: Connection timeout
+[15:08:46] [ERROR] Peer 77.33.175.70:51413 error: Connection timeout
+[15:08:46] [ERROR] Peer 92.38.192.210:23016 error: Connection timeout
+[15:08:46] [ERROR] Peer 205.147.16.227:6881 error: Connection timeout
+[15:08:46] [ERROR] Peer 178.27.0.25:51413 error: Connection timeout
+[15:08:46] [ERROR] Peer 91.217.42.205:8058 error: Connection timeout
+[15:08:46] [ERROR] Peer 178.136.44.52:64423 error: Connection timeout
+[15:08:46] [ERROR] Peer 159.26.105.160:1234 error: Connection timeout
+[15:08:46] [ERROR] Peer 91.219.81.179:45682 error: Connection timeout
+[15:08:46] [ERROR] Peer 85.65.67.118:6881 error: Connection timeout
+[15:08:46] [ERROR] Peer 79.117.39.204:6881 error: Connection timeout
+[15:08:46] [ERROR] Peer 95.26.27.3:51413 error: Connection timeout
+[15:08:46] [ERROR] Peer 88.146.221.2:42041 error: Connection timeout
+[15:08:46] [ERROR] Peer 77.20.151.170:51413 error: Connection timeout
+[15:08:46] [ERROR] Peer 191.96.168.78:52075 error: Connection timeout
+[15:08:46] [ERROR] Peer 187.250.116.16:17779 error: Connection timeout
+[15:08:46] [ERROR] Peer 86.102.134.212:13012 error: Connection timeout
+[15:08:46] [ERROR] Peer 91.214.117.134:32729 error: Connection timeout
+[15:08:46] [ERROR] Peer 91.112.56.66:16388 error: Connection timeout
+[15:08:46] [ERROR] Peer 99.233.192.106:62800 error: Receive timeout
+[15:08:46] [ERROR] Peer 185.243.216.24:41551 error: Receive timeout
+[15:08:46] [ERROR] Peer 146.70.226.233:47478 error: Connection timeout
+[15:08:46] [ERROR] Peer 157.90.13.84:61462 error: Connection closed by peer
+[15:08:46] [UI] Successfully connected to 141.98.100.151:6830
+[15:08:46] [ERROR] Peer 221.228.177.111:20020 error: Connection timeout
+[15:08:46] [ERROR] Peer 86.115.226.162:49152 error: Connection closed by peer
+[15:08:46] [ERROR] Peer 121.235.226.15:20020 error: Connection timeout
+[15:08:46] [ERROR] Peer 121.235.203.236:20020 error: Connection timeout
+[15:08:47] [ERROR] Peer 76.64.174.103:53358 error: Receive timeout
+[15:08:47] [ERROR] Peer 49.76.132.147:20020 error: Read error: Connection reset by peer
+[15:08:47] [UI] Trying to connect 1 new peers (slots available: 26)
+[15:08:47] [ERROR] Peer 121.235.179.54:20020 error: Receive timeout
+[15:08:48] [ERROR] Peer 62.210.207.69:49152 error: Connection closed by peer
+[15:08:48] [ERROR] Peer 198.44.157.147:5430 error: Receive timeout
+[15:08:48] [UI] Background tracker update error: [UdpConnection] Timeout waiting for response (5s) from tracker.openbittorrent.com:80
+[15:08:48] [ERROR] Peer 207.174.105.198:8055 error: Receive timeout
+[15:08:48] [ERROR] Peer 216.197.207.49:51413 error: Connection timeout
+[15:08:48] [ERROR] Peer 51.38.57.28:47437 error: Connection closed by peer
+[15:08:48] [ERROR] Peer 87.58.176.238:62019 error: Connection closed by peer
+[15:08:48] [ERROR] Peer 83.148.245.51:51414 error: Receive timeout
+[15:08:49] [ERROR] Peer 198.44.133.99:44757 error: Read error: Connection reset by peer
+[15:08:49] [ERROR] Peer 141.98.100.151:6830 error: Receive timeout
+[15:08:49] [ERROR] Peer 216.8.202.136:52934 error: Receive timeout
+[15:08:49] [UI] Trying to connect 3 new peers (slots available: 31)
+[15:08:49] [ERROR] Peer 209.127.34.202:6406 error: Socket connection error
+[15:08:49] [ERROR] Peer 156.67.29.55:32655 error: Connection closed by peer
+[15:08:50] [ERROR] Peer 113.205.140.118:15011 error: Connection closed by peer
+[15:08:50] [ERROR] Peer 194.213.3.203:51413 error: Receive timeout
+[15:08:50] [ERROR] Peer 209.141.40.137:20539 error: Receive timeout
+[15:08:50] [ERROR] Peer 85.215.176.70:4240 error: Connection closed by peer
+[15:08:50] [ERROR] Peer 94.231.79.64:51413 error: Socket connection error
+[15:08:51] [ERROR] Peer 128.116.179.157:51413 error: Socket connection error
+[15:08:51] [ERROR] Peer 62.210.131.208:32535 error: Read error: Connection reset by peer
+[15:08:51] [ERROR] Peer 144.2.116.132:51157 error: Read error: Connection reset by peer
+[15:08:51] [UI] Successfully connected to 159.26.100.96:54559
+[15:08:51] [ERROR] Peer 195.122.16.64:51413 error: Read error: Connection reset by peer
+[15:08:51] [UI] Trying to connect 11 new peers (slots available: 33)
+[15:08:51] [ERROR] Peer 163.172.221.72:51413 error: Connection closed by peer
+[15:08:51] [UI] Successfully connected to 185.243.216.24:41551
+[15:08:51] [UI] Successfully connected to 157.90.13.84:61462
+[15:08:51] [ERROR] Peer 159.26.100.96:54559 error: Connection closed by peer
+[15:08:51] [ERROR] Peer 86.115.226.162:49152 error: Connection closed by peer
+[15:08:51] [ERROR] Peer 157.90.13.84:61462 error: Connection closed by peer
+[15:08:51] [UI] Successfully connected to 99.233.192.106:62800
+[15:08:52] [ERROR] Peer 212.104.215.82:60740 error: Connection timeout
+[15:08:52] [UI] Successfully connected to 76.64.174.103:53358
+[15:08:52] [ERROR] Peer 76.64.174.103:53358 error: Connection closed by peer
+[15:08:52] [ERROR] Peer 23.234.122.199:51413 error: Connection timeout
+[15:08:52] [ERROR] Peer 219.228.119.197:26650 error: Connection timeout
+[15:08:52] [ERROR] Peer 91.214.117.134:32729 error: Connection timeout
+[15:08:52] [ERROR] Peer 178.27.0.25:51413 error: Connection timeout
+[15:08:52] [ERROR] Peer 91.217.42.205:8058 error: Connection timeout
+[15:08:52] [ERROR] Peer 185.230.125.15:43743 error: Connection timeout
+[15:08:52] [ERROR] Peer 95.26.27.3:51413 error: Connection timeout
+[15:08:52] [ERROR] Peer 77.33.175.70:51413 error: Connection timeout
+[15:08:52] [ERROR] Peer 191.96.168.78:52075 error: Connection timeout
+[15:08:52] [ERROR] Peer 86.102.134.212:13012 error: Connection timeout
+[15:08:52] [ERROR] Peer 92.38.192.210:23016 error: Connection timeout
+[15:08:52] [ERROR] Peer 79.117.39.204:6881 error: Connection timeout
+[15:08:52] [ERROR] Peer 77.20.151.170:51413 error: Connection timeout
+[15:08:52] [ERROR] Peer 178.136.44.52:64423 error: Connection timeout
+[15:08:52] [ERROR] Peer 91.112.56.66:16388 error: Connection timeout
+[15:08:52] [ERROR] Peer 85.65.67.118:6881 error: Connection timeout
+[15:08:52] [ERROR] Peer 159.26.105.160:1234 error: Connection timeout
+[15:08:52] [ERROR] Peer 187.250.116.16:17779 error: Connection timeout
+[15:08:52] [ERROR] Peer 88.146.221.2:42041 error: Connection timeout
+[15:08:52] [ERROR] Peer 91.219.81.179:45682 error: Connection timeout
+[15:08:52] [ERROR] Peer 205.147.16.227:6881 error: Connection timeout
+[15:08:52] [ERROR] Peer 66.234.153.137:41779 error: Connection timeout
+[15:08:52] [ERROR] Peer 180.113.230.249:20020 error: Connection timeout
+[15:08:52] [ERROR] Peer 159.196.80.138:57359 error: Connection timeout
+[15:08:52] [ERROR] Peer 121.235.154.226:20096 error: Connection timeout
+[15:08:52] [ERROR] Peer 182.132.132.128:7284 error: Connection timeout
+[15:08:52] [ERROR] Peer 122.190.137.169:16881 error: Connection timeout
+[15:08:52] [ERROR] Peer 146.70.166.218:22433 error: Connection timeout
+[15:08:52] [ERROR] Peer 173.249.253.109:56833 error: Connection timeout
+[15:08:52] [ERROR] Peer 101.87.86.24:4844 error: Connection timeout
+[15:08:52] [ERROR] Peer 111.31.143.166:14514 error: Connection timeout
+[15:08:52] [ERROR] Peer 185.148.0.223:22972 error: Connection closed by peer
+[15:08:53] [ERROR] Peer 180.114.148.157:20020 error: Read error: Connection reset by peer
+[15:08:53] [ERROR] Peer 62.210.207.69:49152 error: Connection closed by peer
+[15:08:53] [UI] Successfully connected to 198.44.157.147:5430
+[15:08:53] [UI] Background tracker update error: [UdpConnection] Timeout waiting for response (5s) from tracker.opentrackr.org:1337
+[15:08:53] [UI] Trying to connect 6 new peers (slots available: 32)
+[15:08:53] [UI] Successfully connected to 207.174.105.198:8055
+[15:08:53] [ERROR] Peer 207.174.105.198:8055 error: Connection closed by peer
+[15:08:53] [ERROR] Peer 146.70.226.233:47478 error: Connection closed by peer
+[15:08:54] [ERROR] Peer 121.235.179.54:20020 error: Read error: Connection reset by peer
+[15:08:54] [ERROR] Peer 121.235.226.15:20020 error: Read error: Connection reset by peer
+[15:08:54] [ERROR] Peer 221.228.177.111:20020 error: Read error: Connection reset by peer
+[15:08:54] [ERROR] Peer 87.58.176.238:62019 error: Connection closed by peer
+[15:08:54] [ERROR] Peer 83.148.245.51:51414 error: Connection closed by peer
+[15:08:54] [ERROR] Peer 51.38.57.28:47437 error: Connection closed by peer
+[15:08:54] [ERROR] Peer 49.76.132.147:20020 error: Connection timeout
+[15:08:54] [ERROR] Peer 198.44.133.99:44757 error: Connection closed by peer
+[15:08:54] [UI] Successfully connected to 216.8.202.136:52934
+[15:08:54] [UI] Successfully connected to 141.98.100.151:6830
+[15:08:54] [ERROR] Peer 156.67.29.55:32655 error: Connection closed by peer
+[15:08:54] [ERROR] Peer 209.127.34.202:6406 error: Socket connection error
+[15:08:55] [ERROR] Peer 121.235.203.236:20020 error: Read error: Connection reset by peer
+[15:08:55] [ERROR] Peer 216.197.207.49:51413 error: Receive timeout
+[15:08:55] [ERROR] Peer 113.205.140.118:15011 error: Connection closed by peer
+[15:08:55] [UI] Trying to connect 0 new peers (slots available: 30)
+[15:08:55] [UI] Successfully connected to 85.215.176.70:4240
+[15:08:55] [UI] Successfully connected to 209.141.40.137:20539
+[15:08:55] [UI] Successfully connected to 194.213.3.203:51413
+[15:08:56] [ERROR] Peer 94.231.79.64:51413 error: Socket connection error
+[15:08:56] [ERROR] Peer 128.116.179.157:51413 error: Socket connection error
+[15:08:56] [ERROR] Peer 144.2.116.132:51157 error: Read error: Connection reset by peer
+[15:08:56] [ERROR] Peer 62.210.131.208:32535 error: Read error: Connection reset by peer
+[15:08:56] [ERROR] Peer 195.122.16.64:51413 error: Read error: Connection reset by peer
+[15:08:56] [ERROR] Peer 86.115.226.162:49152 error: Connection closed by peer
+[15:08:56] [UI] Successfully connected to 157.90.13.84:61462
+[15:08:56] [ERROR] Peer 157.90.13.84:61462 error: Connection closed by peer
+[15:08:57] [UI] Successfully connected to 159.26.100.96:54559
+[15:08:57] [UI] Trying to connect 3 new peers (slots available: 26)
+[15:08:57] [ERROR] Peer 159.26.100.96:54559 error: Connection closed by peer
+[15:08:57] [UI] Successfully connected to 76.64.174.103:53358
+[15:08:57] [UI] Successfully connected to 185.148.0.223:22972
+[15:08:57] [ERROR] Peer 141.98.100.151:6830 error: Receive timeout
+[15:08:58] [ERROR] Peer 163.172.221.72:51413 error: Connection closed by peer
+[15:08:58] [ERROR] Peer 212.104.215.82:60740 error: Connection closed by peer
+[15:08:58] [ERROR] Peer 62.210.207.69:49152 error: Connection closed by peer
+[15:08:58] [ERROR] Peer 178.27.0.25:51413 error: Connection timeout
+[15:08:58] [ERROR] Peer 185.230.125.15:43743 error: Connection timeout
+[15:08:58] [ERROR] Peer 91.217.42.205:8058 error: Connection timeout
+[15:08:58] [ERROR] Peer 86.102.134.212:13012 error: Connection timeout
+[15:08:58] [ERROR] Peer 92.38.192.210:23016 error: Connection timeout
+[15:08:58] [ERROR] Peer 77.20.151.170:51413 error: Connection timeout
+[15:08:58] [ERROR] Peer 191.96.168.78:52075 error: Connection timeout
+[15:08:58] [ERROR] Peer 178.136.44.52:64423 error: Connection timeout
+[15:08:58] [ERROR] Peer 91.214.117.134:32729 error: Connection timeout
+[15:08:58] [ERROR] Peer 79.117.39.204:6881 error: Connection timeout
+[15:08:58] [ERROR] Peer 95.26.27.3:51413 error: Connection timeout
+[15:08:58] [ERROR] Peer 91.112.56.66:16388 error: Connection timeout
+[15:08:58] [ERROR] Peer 88.146.221.2:42041 error: Connection timeout
+[15:08:58] [ERROR] Peer 77.33.175.70:51413 error: Connection timeout
+[15:08:58] [ERROR] Peer 159.26.105.160:1234 error: Connection timeout
+[15:08:58] [ERROR] Peer 187.250.116.16:17779 error: Connection timeout
+[15:08:58] [ERROR] Peer 85.65.67.118:6881 error: Connection timeout
+[15:08:58] [ERROR] Peer 91.219.81.179:45682 error: Connection timeout
+[15:08:58] [ERROR] Peer 205.147.16.227:6881 error: Connection timeout
+[15:08:58] [ERROR] Peer 173.249.253.109:56833 error: Connection timeout
+[15:08:58] [ERROR] Peer 101.87.86.24:4844 error: Connection timeout
+[15:08:58] [ERROR] Peer 159.196.80.138:57359 error: Connection timeout
+[15:08:58] [ERROR] Peer 66.234.153.137:41779 error: Connection timeout
+[15:08:58] [ERROR] Peer 111.31.143.166:14514 error: Connection timeout
+[15:08:58] [ERROR] Peer 180.113.230.249:20020 error: Connection timeout
+[15:08:58] [ERROR] Peer 182.132.132.128:7284 error: Connection timeout
+[15:08:58] [ERROR] Peer 121.235.154.226:20096 error: Connection timeout
+[15:08:58] [ERROR] Peer 122.190.137.169:16881 error: Connection timeout
+[15:08:58] [ERROR] Peer 146.70.166.218:22433 error: Connection timeout
+[15:08:58] [ERROR] Peer 23.234.122.199:51413 error: Connection timeout
+[15:08:58] [ERROR] Peer 219.228.119.197:26650 error: Connection timeout
+[15:08:58] [UI] Background tracker update error: [UdpConnection] Timeout waiting for response (5s) from tracker.torrent.eu.org:451
+[15:08:59] [UI] Successfully connected to 207.174.105.198:8055
+[15:08:59] [ERROR] Peer 207.174.105.198:8055 error: Connection closed by peer
+[15:08:59] [ERROR] Peer 180.114.148.157:20020 error: Connection timeout
+[15:08:59] [ERROR] Peer 146.70.226.233:47478 error: Connection closed by peer
+[15:08:59] [UI] Trying to connect 0 new peers (slots available: 26)
+[15:08:59] [ERROR] Peer 121.235.179.54:20020 error: Read error: Connection reset by peer
+[15:08:59] [ERROR] Peer 121.235.226.15:20020 error: Read error: Connection reset by peer
+[15:08:59] [ERROR] Peer 87.58.176.238:62019 error: Connection closed by peer
+[15:08:59] [ERROR] Peer 51.38.57.28:47437 error: Connection closed by peer
+[15:08:59] [ERROR] Peer 221.228.177.111:20020 error: Read error: Connection reset by peer
+[15:09:00] [ERROR] Peer 156.67.29.55:32655 error: Connection closed by peer
+[15:09:00] [ERROR] Peer 49.76.132.147:20020 error: Read error: Connection reset by peer
+[15:09:00] [ERROR] Peer 209.127.34.202:6406 error: Socket connection error
+[15:09:00] [ERROR] Peer 198.44.133.99:44757 error: Read error: Connection reset by peer
+[15:09:00] [UI] Successfully connected to 83.148.245.51:51414
+[15:09:00] [ERROR] Peer 121.235.203.236:20020 error: Read error: Connection reset by peer
+[15:09:01] [ERROR] Peer 113.205.140.118:15011 error: Connection closed by peer
+[15:09:01] [UI] Trying to connect 5 new peers (slots available: 25)
+[15:09:01] [ERROR] Peer 94.231.79.64:51413 error: Socket connection error
+[15:09:01] [ERROR] Peer 128.116.179.157:51413 error: Socket connection error
+[15:09:01] [ERROR] Peer 144.2.116.132:51157 error: Connection closed by peer
+[15:09:01] [ERROR] Peer 62.210.131.208:32535 error: Read error: Connection reset by peer
+[15:09:01] [ERROR] Peer 86.115.226.162:49152 error: Connection closed by peer
+[15:09:02] [UI] Successfully connected to 157.90.13.84:61462
+[15:09:02] [ERROR] Peer 157.90.13.84:61462 error: Connection closed by peer
+[15:09:03] [ERROR] Peer 216.197.207.49:51413 error: Receive timeout
+[15:09:03] [UI] Successfully connected to 141.98.100.151:6830
+[15:09:03] [UI] Successfully connected to 159.26.100.96:54559
+[15:09:03] [UI] Trying to connect 2 new peers (slots available: 23)
+[15:09:03] [UI] Background tracker update error: [UdpConnection] Timeout waiting for response (5s) from tracker.tryhackx.org:6969
+[15:09:03] [ERROR] Peer 163.172.221.72:51413 error: Connection closed by peer
+[15:09:03] [ERROR] Peer 195.122.16.64:51413 error: Read error: Connection reset by peer
+[15:09:03] [ERROR] Peer 62.210.207.69:49152 error: Connection closed by peer
+[15:09:03] [ERROR] Peer 159.26.100.96:54559 error: Connection closed by peer
+[15:09:04] [ERROR] Peer 212.104.215.82:60740 error: Connection closed by peer
+[15:09:04] [ERROR] Peer 121.235.154.226:20096 error: Read error: Connection reset by peer
+[15:09:04] [UI] Successfully connected to 207.174.105.198:8055
+[15:09:04] [ERROR] Peer 185.230.125.15:43743 error: Connection timeout
+[15:09:04] [ERROR] Peer 86.102.134.212:13012 error: Connection timeout
+[15:09:04] [ERROR] Peer 91.112.56.66:16388 error: Connection timeout
+[15:09:04] [ERROR] Peer 77.20.151.170:51413 error: Connection timeout
+[15:09:04] [ERROR] Peer 178.27.0.25:51413 error: Connection timeout
+[15:09:04] [ERROR] Peer 95.26.27.3:51413 error: Connection timeout
+[15:09:04] [ERROR] Peer 92.38.192.210:23016 error: Connection timeout
+[15:09:04] [ERROR] Peer 79.117.39.204:6881 error: Connection timeout
+[15:09:04] [ERROR] Peer 191.96.168.78:52075 error: Connection timeout
+[15:09:04] [ERROR] Peer 91.214.117.134:32729 error: Connection timeout
+[15:09:04] [ERROR] Peer 91.217.42.205:8058 error: Connection timeout
+[15:09:04] [ERROR] Peer 178.136.44.52:64423 error: Connection timeout
+[15:09:04] [ERROR] Peer 187.250.116.16:17779 error: Connection timeout
+[15:09:04] [ERROR] Peer 159.26.105.160:1234 error: Connection timeout
+[15:09:04] [ERROR] Peer 77.33.175.70:51413 error: Connection timeout
+[15:09:04] [ERROR] Peer 88.146.221.2:42041 error: Connection timeout
+[15:09:04] [ERROR] Peer 85.65.67.118:6881 error: Connection timeout
+[15:09:04] [ERROR] Peer 205.147.16.227:6881 error: Connection timeout
+[15:09:04] [ERROR] Peer 91.219.81.179:45682 error: Connection timeout
+[15:09:04] [ERROR] Peer 159.196.80.138:57359 error: Connection timeout
+[15:09:04] [ERROR] Peer 122.190.137.169:16881 error: Connection timeout
+[15:09:04] [ERROR] Peer 111.31.143.166:14514 error: Connection timeout
+[15:09:04] [ERROR] Peer 101.87.86.24:4844 error: Connection timeout
+[15:09:04] [ERROR] Peer 180.113.230.249:20020 error: Connection timeout
+[15:09:04] [ERROR] Peer 66.234.153.137:41779 error: Connection timeout
+[15:09:04] [ERROR] Peer 173.249.253.109:56833 error: Connection timeout
+[15:09:04] [ERROR] Peer 182.132.132.128:7284 error: Connection timeout
+[15:09:04] [ERROR] Peer 146.70.166.218:22433 error: Connection timeout
+[15:09:04] [ERROR] Peer 219.228.119.197:26650 error: Connection timeout
+[15:09:04] [ERROR] Peer 23.234.122.199:51413 error: Connection timeout
+[15:09:04] [ERROR] Peer 207.174.105.198:8055 error: Connection closed by peer
+[15:09:04] [ERROR] Peer 146.70.226.233:47478 error: Connection closed by peer
+[15:09:05] [ERROR] Peer 180.114.148.157:20020 error: Connection timeout
+[15:09:05] [ERROR] Peer 156.67.29.55:32655 error: Connection closed by peer
+[15:09:05] [ERROR] Peer 51.38.57.28:47437 error: Connection closed by peer
+[15:09:05] [ERROR] Peer 209.127.34.202:6406 error: Socket connection error
+[15:09:05] [ERROR] Peer 121.235.179.54:20020 error: Read error: Connection reset by peer
+[15:09:05] [ERROR] Peer 121.235.226.15:20020 error: Read error: Connection reset by peer
+[15:09:05] [ERROR] Peer 221.228.177.111:20020 error: Read error: Connection reset by peer
+[15:09:05] [UI] Trying to connect 2 new peers (slots available: 24)
+[15:09:05] [ERROR] Peer 49.76.132.147:20020 error: Read error: Connection reset by peer
+[15:09:05] [ERROR] Peer 87.58.176.238:62019 error: Connection closed by peer
+[15:09:05] [ERROR] Peer 141.98.100.151:6830 error: Receive timeout
+[15:09:05] [ERROR] Peer 85.215.176.70:4240 error: Connection closed by peer
+[15:09:06] [ERROR] Peer 198.44.133.99:44757 error: Read error: Connection reset by peer
+[15:09:06] [ERROR] Peer 121.235.203.236:20020 error: Read error: Connection reset by peer
+[15:09:06] [ERROR] Peer 94.231.79.64:51413 error: Socket connection error
+[15:09:06] [ERROR] Peer 113.205.140.118:15011 error: Connection closed by peer
+[15:09:06] [ERROR] Peer 128.116.179.157:51413 error: Socket connection error
+[15:09:06] [ERROR] Peer 144.2.116.132:51157 error: Connection closed by peer
+[15:09:06] [ERROR] Peer 62.210.131.208:32535 error: Read error: Connection reset by peer
+[15:09:07] [UI] Successfully connected to 157.90.13.84:61462
+[15:09:07] [ERROR] Peer 157.90.13.84:61462 error: Connection closed by peer
+[15:09:07] [UI] Trying to connect 1 new peers (slots available: 26)
+[15:09:07] [ERROR] Peer 86.115.226.162:49152 error: Connection closed by peer
+[15:09:08] [UI] Background tracker update error: [UdpConnection] Timeout waiting for response (5s) from tracker.uw0.xyz:6969
+[15:09:08] [ERROR] Peer 195.122.16.64:51413 error: Connection closed by peer
+[15:09:08] [ERROR] Peer 62.210.207.69:49152 error: Connection closed by peer
+[15:09:09] [ERROR] Peer 163.172.221.72:51413 error: Connection closed by peer
+[15:09:09] [UI] Successfully connected to 159.26.100.96:54559
+[15:09:09] [UI] Trying to connect 20 new peers (slots available: 25)
+[15:09:09] [UI] Entering endgame mode - 18 pieces remaining
+[15:09:09] [UI] Endgame: requeuing 18 missing pieces
+[15:09:09] [UI] Successfully connected to 207.174.105.198:8055
+[15:09:09] [ERROR] Peer 216.197.207.49:51413 error: Receive timeout
+[15:09:09] [ERROR] Peer 159.26.100.96:54559 error: Connection closed by peer
+[15:09:10] [ERROR] Peer 207.174.105.198:8055 error: Connection closed by peer
+[15:09:10] [ERROR] Peer 146.70.226.233:47478 error: Connection closed by peer
+[15:09:10] [ERROR] Peer 121.235.154.226:20096 error: Connection timeout
+[15:09:10] [ERROR] Peer 156.67.29.55:32655 error: Connection closed by peer
+[15:09:10] [ERROR] Peer 209.127.34.202:6406 error: Socket connection error
+[15:09:10] [ERROR] Peer 182.132.132.128:7284 error: Connection timeout
+[15:09:10] [ERROR] Peer 111.31.143.166:14514 error: Connection timeout
+[15:09:10] [ERROR] Peer 66.234.153.137:41779 error: Connection timeout
+[15:09:10] [ERROR] Peer 180.113.230.249:20020 error: Connection timeout
+[15:09:10] [ERROR] Peer 159.196.80.138:57359 error: Connection timeout
+[15:09:10] [ERROR] Peer 173.249.253.109:56833 error: Connection timeout
+[15:09:10] [ERROR] Peer 146.70.166.218:22433 error: Connection timeout
+[15:09:10] [ERROR] Peer 122.190.137.169:16881 error: Connection timeout
+[15:09:10] [ERROR] Peer 101.87.86.24:4844 error: Connection timeout
+[15:09:10] [ERROR] Peer 23.234.122.199:51413 error: Connection timeout
+[15:09:10] [ERROR] Peer 219.228.119.197:26650 error: Connection timeout
+[15:09:10] [ERROR] Peer 205.147.16.227:6881 error: Connection timeout
+[15:09:10] [ERROR] Peer 92.38.192.210:23016 error: Connection timeout
+[15:09:10] [ERROR] Peer 77.33.175.70:51413 error: Connection timeout
+[15:09:10] [ERROR] Peer 178.136.44.52:64423 error: Connection timeout
+[15:09:10] [ERROR] Peer 91.219.81.179:45682 error: Connection timeout
+[15:09:10] [ERROR] Peer 178.27.0.25:51413 error: Connection timeout
+[15:09:10] [ERROR] Peer 185.230.125.15:43743 error: Connection timeout
+[15:09:10] [ERROR] Peer 88.146.221.2:42041 error: Connection timeout
+[15:09:10] [ERROR] Peer 85.65.67.118:6881 error: Connection timeout
+[15:09:10] [ERROR] Peer 91.217.42.205:8058 error: Connection timeout
+[15:09:10] [ERROR] Peer 95.26.27.3:51413 error: Connection timeout
+[15:09:10] [ERROR] Peer 159.26.105.160:1234 error: Connection timeout
+[15:09:10] [ERROR] Peer 212.104.215.82:60740 error: Connection timeout
+[15:09:10] [ERROR] Peer 187.250.116.16:17779 error: Connection timeout
+[15:09:10] [ERROR] Peer 91.214.117.134:32729 error: Connection timeout
+[15:09:10] [ERROR] Peer 86.102.134.212:13012 error: Connection timeout
+[15:09:10] [ERROR] Peer 191.96.168.78:52075 error: Connection timeout
+[15:09:10] [ERROR] Peer 91.112.56.66:16388 error: Connection timeout
+[15:09:10] [ERROR] Peer 79.117.39.204:6881 error: Connection timeout
+[15:09:10] [ERROR] Peer 77.20.151.170:51413 error: Connection timeout
+[15:09:10] [ERROR] Peer 51.38.57.28:47437 error: Connection closed by peer
+[15:09:11] [ERROR] Peer 87.58.176.238:62011 error: Connection terminated
+[15:09:11] [ERROR] Peer 85.215.176.70:4240 error: Connection terminated
+[15:09:11] [ERROR] Peer 76.64.174.103:53358 error: Connection terminated
+[15:09:11] [ERROR] Peer 205.147.16.24:60006 error: Connection terminated
+[15:09:11] [ERROR] Peer 213.152.176.135:20074 error: Connection terminated
+[15:09:11] [ERROR] Peer 45.128.133.232:32956 error: Connection terminated
+[15:09:11] [ERROR] Peer 185.148.0.223:22972 error: Connection terminated
+[15:09:11] [ERROR] Peer 121.235.226.15:20020 error: Read error: Connection reset by peer
+[15:09:11] [ERROR] Peer 194.213.3.203:51413 error: Connection terminated
+[15:09:11] [ERROR] Peer 178.93.200.161:35209 error: Connection terminated
+[15:09:11] [ERROR] Peer 193.163.71.79:23407 error: Connection terminated
+[15:09:11] [ERROR] Peer 83.148.245.51:51414 error: Connection terminated
+[15:09:11] [ERROR] Peer 37.120.174.87:51413 error: Connection terminated
+[15:09:11] [ERROR] Peer 185.243.216.24:41551 error: Connection terminated
+[15:09:11] [ERROR] Peer 82.64.45.242:59092 error: Connection terminated
+[15:09:11] [ERROR] Peer 91.3.193.65:12001 error: Connection terminated
+[15:09:11] [ERROR] Peer 192.162.126.206:14752 error: Connection terminated
+[15:09:11] [ERROR] Peer 216.236.39.61:51413 error: Connection terminated
+[15:09:11] [ERROR] Peer 216.8.202.136:52934 error: Connection terminated
+[15:09:11] [ERROR] Peer 209.141.40.137:20539 error: Connection terminated
+[15:09:11] [ERROR] Peer 205.147.16.141:43262 error: Connection terminated
+[15:09:11] [ERROR] Peer 198.44.157.147:5430 error: Connection terminated
+[15:09:11] [ERROR] Peer 159.26.114.38:57185 error: Connection terminated
+[15:09:11] [ERROR] Peer 154.12.118.196:62084 error: Connection terminated
+[15:09:11] [ERROR] Peer 141.98.100.151:6830 error: Connection terminated
+[15:09:11] [ERROR] Peer 99.233.192.106:62800 error: Connection terminated
+[15:09:11] [ERROR] Peer 185.16.100.222:54321 error: Connection terminated
+[15:09:11] [ERROR] Peer 180.114.148.157:20020 error: Connection timeout
+[15:09:11] [ERROR] Peer 87.58.176.238:62019 error: Connection closed by peer
+[15:09:11] [ERROR] Peer 49.76.132.147:20020 error: Read error: Connection reset by peer
+[15:09:11] [ERROR] Peer 221.228.177.111:20020 error: Connection timeout
+[15:09:11] [ERROR] Peer 198.44.133.99:44757 error: Read error: Connection reset by peer
+[15:09:11] [ERROR] Peer 94.231.79.64:51413 error: Socket connection error
+[15:09:11] [ERROR] Peer 128.116.179.157:51413 error: Socket connection error
+[15:09:11] [ERROR] Peer 121.235.203.236:20020 error: Read error: Connection reset by peer
+[15:09:11] [ERROR] Peer 144.2.116.132:51157 error: Read error: Connection reset by peer
+[15:09:11] [ERROR] Peer 62.210.131.208:32535 error: Read error: Connection reset by peer
+[15:09:12] [ERROR] Peer 121.235.179.54:20020 error: Connection terminated
+[15:09:12] [ERROR] Peer 86.115.226.162:49152 error: Connection closed by peer
+[15:09:14] [UI] Download completed successfully
+[15:09:14] [UI] Session finished
