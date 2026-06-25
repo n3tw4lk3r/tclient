@@ -15,8 +15,14 @@ namespace tclient {
 class TorrentSession;
 
 class TorrentClient {
+private:
+    static constexpr size_t kPeerIdLength = 20;
+    static constexpr std::string kBaseSelfPeerId = "TCLIENT-";
+    static constexpr size_t kSelfPeerIdSuffixLength =
+        kPeerIdLength - kBaseSelfPeerId.size();
+
 public:
-    explicit TorrentClient(const std::string& peer_id = "TESTAPPDONTWORRY");
+    explicit TorrentClient();
     ~TorrentClient();
 
     void DownloadTorrent(
@@ -32,7 +38,7 @@ public:
     std::chrono::seconds ElapsedTime() const;
 
 private:
-    static constexpr int kListenPort = 12345;
+    static constexpr int kListenPort = 77777;
 
     std::mt19937 random_engine;
     std::uniform_int_distribution<int> char_dist =
@@ -47,7 +53,7 @@ private:
     std::atomic<bool> is_terminated = false;
 
 private:
-    std::string GenerateRandomSuffix(size_t length = 4);
+    std::string GenerateRandomSuffix(size_t length);
 };
 
 } // namespace tclient

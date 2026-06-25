@@ -8,9 +8,9 @@
 
 namespace tclient {
 
-TorrentClient::TorrentClient(const std::string& base_peer_id) :
+TorrentClient::TorrentClient() :
     random_engine(std::random_device()()),
-    peer_id(base_peer_id + GenerateRandomSuffix())
+    peer_id(kBaseSelfPeerId + GenerateRandomSuffix(kSelfPeerIdSuffixLength))
 {
     Logger::LogUI("Torrent client initialized");
 }
