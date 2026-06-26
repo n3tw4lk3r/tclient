@@ -112,14 +112,6 @@ void PeerConnector::DiscoveryLoop(TorrentFile torrent_file) {
 
             size_t to_connect = std::min(ready_peers.size(), available_slots);
 
-            Logger::LogUi(
-                "Trying to connect " +
-                std::to_string(to_connect) +
-                " new peers (slots available: " +
-                std::to_string(available_slots) +
-                ")"
-            );
-
             for (size_t i = 0; i < to_connect && !is_stopped; ++i) {
                 ConnectToPeer(ready_peers[i], torrent_file);
             }

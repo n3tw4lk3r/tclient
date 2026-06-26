@@ -113,7 +113,6 @@ void PeerSession::RunLoop() {
             if (EstablishConnection()) {
                 failures_count = 0;
                 is_connected = true;
-                Logger::LogUi("Successfully connected to " + GetPeerAddress());
                 MainLoop();
             } else {
                 ++failures_count;

@@ -16,7 +16,7 @@ public:
 
 private:
     static constexpr size_t kScreenWidth = 70;
-    static constexpr size_t kLogLines = 10;
+    static constexpr size_t kLogLines = 20;
 
 private:
     static void ClearScreen();

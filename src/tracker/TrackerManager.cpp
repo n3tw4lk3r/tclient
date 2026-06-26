@@ -106,7 +106,6 @@ bool TrackerManager::TryAnnounceToTracker(
 ) {
     try {
         auto tracker = TrackerFactory::CreateTracker(std::string(url));
-        Logger::LogUi("Requesting peers from " + std::string(url) + "...");
 
         auto peers = tracker->Announce(
             torrent_file,
@@ -129,10 +128,6 @@ bool TrackerManager::TryAnnounceToTracker(
         return !peers.empty();
     } catch (const std::exception& error) {
         Logger::LogUi("Tracker " + std::string(url) + " error: " + error.what());
-        Logger::LogUi("If you keep receiving tracker errors,");
-        Logger::LogUi("try updating config/tracker-list.txt");
-        Logger::LogUi("with UDP trackers from here");
-        Logger::LogUi("https://github.com/ngosang/trackerslist");
         return false;
     }
 }
@@ -166,11 +161,6 @@ void TrackerManager::BackgroundUpdateLoop(TorrentFile torrent_file) {
         size_t known_peers = peer_manager.Count();
 
         if (active_connections < 50 && known_peers < 500) {
-            Logger::LogUi(
-                "Requesting more peers (active: " +
-                std::to_string(active_connections) + "/50)..."
-            );
-
             for (size_t i = 0; i < tracker_urls.size() && !is_stopped; ++i) {
                 if (peer_connector) {
                     active_connections = peer_connector->ActiveConnectionCount();
@@ -198,34 +188,13 @@ void TrackerManager::BackgroundUpdateLoop(TorrentFile torrent_file) {
                     peer_manager.AddPeers(peers);
                     auto after = peer_manager.Count();
 
-                    if (after > before) {
-                        Logger::LogUi(
-                            "Discovered " +
-                            std::to_string(after - before) +
-                            " new peers from " +
-                            tracker_urls[i] +
-                            " (total known: " + std::to_string(after) + ")"
-                        );
-                    }
                 } catch (const std::exception& error) {
-                    Logger::LogUi(
+                    Logger::LogError(
                         "Background tracker update error: " +
                         std::string(error.what())
                     );
                 }
             }
-        } else if (active_connections >= 50) {
-            Logger::LogUi(
-                "Have " +
-                std::to_string(active_connections) +
-                " active connections, skipping tracker update"
-            );
-        } else {
-            Logger::LogUi(
-                "Have " +
-                std::to_string(known_peers) +
-                " known peers, enough in pool"
-            );
         }
 
         auto deadline = std::chrono::steady_clock::now() + kUpdateInterval;
