@@ -87,6 +87,7 @@ std::vector<std::string> TrackerManager::CollectTrackerUrls(
     std::unordered_set<std::string> seen;
 
     if (!torrent_file.announce.empty()) {
+        urls.push_back(torrent_file.announce);
         seen.insert(torrent_file.announce);
     }
 
